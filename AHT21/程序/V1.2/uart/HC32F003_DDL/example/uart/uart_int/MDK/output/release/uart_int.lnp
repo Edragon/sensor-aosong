@@ -1,0 +1,16 @@
+--cpu Cortex-M0+
+".\output\release\startup_hc32f003.o"
+".\output\release\system_hc32f003.o"
+".\output\release\main.o"
+".\output\release\interrupts_hc32f003.o"
+".\output\release\clk.o"
+".\output\release\uart.o"
+".\output\release\bt.o"
+".\output\release\sensor3123.o"
+".\output\release\gpio.o"
+".\output\release\ddl.o"
+".\output\release\pcf8562.o"
+".\output\release\wdt.o"
+--strict --scatter ".\output\release\uart_int.sct"
+--summary_stderr --info summarysizes --map
+--list ".\output\release\uart_int.map" -o .\output\release\uart_int.axf

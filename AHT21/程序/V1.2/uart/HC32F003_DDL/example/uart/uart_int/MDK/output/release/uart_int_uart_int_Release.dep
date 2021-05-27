@@ -1,0 +1,203 @@
+Dependencies for Project 'uart_int', Target 'uart_int_Release': (DO NOT MODIFY !)
+F (.\startup_hc32f003.s)(0x5E8EE418)(--cpu Cortex-M0+ -g --apcs=interwork -I D:\项目管理\AHT20及21演示板\标准版本\程序\新建文件夹\V1.2\uart\HC32F003_DDL\example\uart\uart_int\MDK\RTE-I "D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\MDK  5\ARM\PACK\HDSC\HC32F003\1.0.1"-I "D:\MDK  5\ARM\PACK\HDSC\HC32F003\1.0.1\Device\Include"--pd "__UVISION_VERSION SETA 514" --pd "_RTE_ SETA 1"-o .\output\release\startup_hc32f003.o --depend .\output\release\startup_hc32f003.d)
+F (..\..\..\..\mcu\common\system_hc32f003.c)(0x5A73CD4C)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I..\..\..\..\mcu\common -I..\source -I..\..\..\..\driver\inc-I D:\项目管理\AHT20及21演示板\标准版本\程序\新建文件夹\V1.2\uart\HC32F003_DDL\example\uart\uart_int\MDK\RTE-I "D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\MDK  5\ARM\PACK\HDSC\HC32F003\1.0.1"-I "D:\MDK  5\ARM\PACK\HDSC\HC32F003\1.0.1\Device\Include"-D__UVISION_VERSION="514" -D_RTE_-o .\output\release\system_hc32f003.o --omf_browse .\output\release\system_hc32f003.crf --depend .\output\release\system_hc32f003.d)
+I (..\..\..\..\mcu\common\base_types.h)(0x5A73CD4C)
+I (D:\MDK  5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\stdint.h)(0x5F0BF6AC)
+I (D:\MDK  5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\..\..\mcu\common\hc32f003.h)(0x5A73CD4C)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\..\mcu\common\system_hc32f003.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\ddl.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\clk.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\interrupts_hc32f003.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\gpio.h)(0x5A73CD4C)
+I (..\source\ddl_device.h)(0x5A73CD90)
+F (..\source\main.c)(0x60642A2C)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I..\..\..\..\mcu\common -I..\source -I..\..\..\..\driver\inc-I D:\项目管理\AHT20及21演示板\标准版本\程序\新建文件夹\V1.2\uart\HC32F003_DDL\example\uart\uart_int\MDK\RTE-I "D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\MDK  5\ARM\PACK\HDSC\HC32F003\1.0.1"-I "D:\MDK  5\ARM\PACK\HDSC\HC32F003\1.0.1\Device\Include"-D__UVISION_VERSION="514" -D_RTE_-o .\output\release\main.o --omf_browse .\output\release\main.crf --depend .\output\release\main.d)
+I (..\..\..\..\driver\inc\ddl.h)(0x5A73CD4C)
+I (..\..\..\..\mcu\common\base_types.h)(0x5A73CD4C)
+I (D:\MDK  5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\stdint.h)(0x5F0BF6AC)
+I (D:\MDK  5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\..\..\mcu\common\hc32f003.h)(0x5A73CD4C)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\..\mcu\common\system_hc32f003.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\clk.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\interrupts_hc32f003.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\gpio.h)(0x5A73CD4C)
+I (..\source\ddl_device.h)(0x5A73CD90)
+I (..\..\..\..\driver\inc\uart.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\bt.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\lpm.h)(0x5A73CD4C)
+I (..\source\sensor3123.h)(0x5EFC79EE)
+I (..\..\..\..\driver\inc\flash.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\wdt.h)(0x5A73CD4C)
+I (..\source\pcf8562.h)(0x5EFC7A00)
+F (..\..\..\..\driver\src\interrupts_hc32f003.c)(0x5E981492)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I..\..\..\..\mcu\common -I..\source -I..\..\..\..\driver\inc-I D:\项目管理\AHT20及21演示板\标准版本\程序\新建文件夹\V1.2\uart\HC32F003_DDL\example\uart\uart_int\MDK\RTE-I "D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\MDK  5\ARM\PACK\HDSC\HC32F003\1.0.1"-I "D:\MDK  5\ARM\PACK\HDSC\HC32F003\1.0.1\Device\Include"-D__UVISION_VERSION="514" -D_RTE_-o .\output\release\interrupts_hc32f003.o --omf_browse .\output\release\interrupts_hc32f003.crf --depend .\output\release\interrupts_hc32f003.d)
+I (..\..\..\..\driver\inc\ddl.h)(0x5A73CD4C)
+I (..\..\..\..\mcu\common\base_types.h)(0x5A73CD4C)
+I (D:\MDK  5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\stdint.h)(0x5F0BF6AC)
+I (D:\MDK  5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\..\..\mcu\common\hc32f003.h)(0x5A73CD4C)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\..\mcu\common\system_hc32f003.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\clk.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\interrupts_hc32f003.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\gpio.h)(0x5A73CD4C)
+I (..\source\ddl_device.h)(0x5A73CD90)
+F (..\..\..\..\driver\src\clk.c)(0x5E940694)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I..\..\..\..\mcu\common -I..\source -I..\..\..\..\driver\inc-I D:\项目管理\AHT20及21演示板\标准版本\程序\新建文件夹\V1.2\uart\HC32F003_DDL\example\uart\uart_int\MDK\RTE-I "D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\MDK  5\ARM\PACK\HDSC\HC32F003\1.0.1"-I "D:\MDK  5\ARM\PACK\HDSC\HC32F003\1.0.1\Device\Include"-D__UVISION_VERSION="514" -D_RTE_-o .\output\release\clk.o --omf_browse .\output\release\clk.crf --depend .\output\release\clk.d)
+I (..\..\..\..\driver\inc\clk.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\ddl.h)(0x5A73CD4C)
+I (..\..\..\..\mcu\common\base_types.h)(0x5A73CD4C)
+I (D:\MDK  5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\stdint.h)(0x5F0BF6AC)
+I (D:\MDK  5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\..\..\mcu\common\hc32f003.h)(0x5A73CD4C)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\..\mcu\common\system_hc32f003.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\gpio.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\interrupts_hc32f003.h)(0x5A73CD4C)
+I (..\source\ddl_device.h)(0x5A73CD90)
+F (..\..\..\..\driver\src\uart.c)(0x5E9404A8)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I..\..\..\..\mcu\common -I..\source -I..\..\..\..\driver\inc-I D:\项目管理\AHT20及21演示板\标准版本\程序\新建文件夹\V1.2\uart\HC32F003_DDL\example\uart\uart_int\MDK\RTE-I "D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\MDK  5\ARM\PACK\HDSC\HC32F003\1.0.1"-I "D:\MDK  5\ARM\PACK\HDSC\HC32F003\1.0.1\Device\Include"-D__UVISION_VERSION="514" -D_RTE_-o .\output\release\uart.o --omf_browse .\output\release\uart.crf --depend .\output\release\uart.d)
+I (..\..\..\..\driver\inc\uart.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\ddl.h)(0x5A73CD4C)
+I (..\..\..\..\mcu\common\base_types.h)(0x5A73CD4C)
+I (D:\MDK  5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\stdint.h)(0x5F0BF6AC)
+I (D:\MDK  5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\..\..\mcu\common\hc32f003.h)(0x5A73CD4C)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\..\mcu\common\system_hc32f003.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\clk.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\interrupts_hc32f003.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\gpio.h)(0x5A73CD4C)
+I (..\source\ddl_device.h)(0x5A73CD90)
+F (..\..\..\..\driver\src\bt.c)(0x5B0F644A)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I..\..\..\..\mcu\common -I..\source -I..\..\..\..\driver\inc-I D:\项目管理\AHT20及21演示板\标准版本\程序\新建文件夹\V1.2\uart\HC32F003_DDL\example\uart\uart_int\MDK\RTE-I "D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\MDK  5\ARM\PACK\HDSC\HC32F003\1.0.1"-I "D:\MDK  5\ARM\PACK\HDSC\HC32F003\1.0.1\Device\Include"-D__UVISION_VERSION="514" -D_RTE_-o .\output\release\bt.o --omf_browse .\output\release\bt.crf --depend .\output\release\bt.d)
+I (..\..\..\..\driver\inc\bt.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\ddl.h)(0x5A73CD4C)
+I (..\..\..\..\mcu\common\base_types.h)(0x5A73CD4C)
+I (D:\MDK  5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\stdint.h)(0x5F0BF6AC)
+I (D:\MDK  5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\..\..\mcu\common\hc32f003.h)(0x5A73CD4C)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\..\mcu\common\system_hc32f003.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\clk.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\interrupts_hc32f003.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\gpio.h)(0x5A73CD4C)
+I (..\source\ddl_device.h)(0x5A73CD90)
+F (..\source\sensor3123.c)(0x606428AC)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I..\..\..\..\mcu\common -I..\source -I..\..\..\..\driver\inc-I D:\项目管理\AHT20及21演示板\标准版本\程序\新建文件夹\V1.2\uart\HC32F003_DDL\example\uart\uart_int\MDK\RTE-I "D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\MDK  5\ARM\PACK\HDSC\HC32F003\1.0.1"-I "D:\MDK  5\ARM\PACK\HDSC\HC32F003\1.0.1\Device\Include"-D__UVISION_VERSION="514" -D_RTE_-o .\output\release\sensor3123.o --omf_browse .\output\release\sensor3123.crf --depend .\output\release\sensor3123.d)
+I (..\source\sensor3123.h)(0x5EFC79EE)
+I (..\..\..\..\driver\inc\ddl.h)(0x5A73CD4C)
+I (..\..\..\..\mcu\common\base_types.h)(0x5A73CD4C)
+I (D:\MDK  5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\stdint.h)(0x5F0BF6AC)
+I (D:\MDK  5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\..\..\mcu\common\hc32f003.h)(0x5A73CD4C)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\..\mcu\common\system_hc32f003.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\clk.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\interrupts_hc32f003.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\gpio.h)(0x5A73CD4C)
+I (..\source\ddl_device.h)(0x5A73CD90)
+I (..\..\..\..\driver\inc\wdt.h)(0x5A73CD4C)
+F (..\..\..\..\driver\src\gpio.c)(0x5E9813DA)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I..\..\..\..\mcu\common -I..\source -I..\..\..\..\driver\inc-I D:\项目管理\AHT20及21演示板\标准版本\程序\新建文件夹\V1.2\uart\HC32F003_DDL\example\uart\uart_int\MDK\RTE-I "D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\MDK  5\ARM\PACK\HDSC\HC32F003\1.0.1"-I "D:\MDK  5\ARM\PACK\HDSC\HC32F003\1.0.1\Device\Include"-D__UVISION_VERSION="514" -D_RTE_-o .\output\release\gpio.o --omf_browse .\output\release\gpio.crf --depend .\output\release\gpio.d)
+I (..\..\..\..\driver\inc\gpio.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\ddl.h)(0x5A73CD4C)
+I (..\..\..\..\mcu\common\base_types.h)(0x5A73CD4C)
+I (D:\MDK  5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\stdint.h)(0x5F0BF6AC)
+I (D:\MDK  5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\..\..\mcu\common\hc32f003.h)(0x5A73CD4C)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\..\mcu\common\system_hc32f003.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\clk.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\interrupts_hc32f003.h)(0x5A73CD4C)
+I (..\source\ddl_device.h)(0x5A73CD90)
+F (..\..\..\..\driver\src\ddl.c)(0x5B0F5FCC)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I..\..\..\..\mcu\common -I..\source -I..\..\..\..\driver\inc-I D:\项目管理\AHT20及21演示板\标准版本\程序\新建文件夹\V1.2\uart\HC32F003_DDL\example\uart\uart_int\MDK\RTE-I "D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\MDK  5\ARM\PACK\HDSC\HC32F003\1.0.1"-I "D:\MDK  5\ARM\PACK\HDSC\HC32F003\1.0.1\Device\Include"-D__UVISION_VERSION="514" -D_RTE_-o .\output\release\ddl.o --omf_browse .\output\release\ddl.crf --depend .\output\release\ddl.d)
+I (..\..\..\..\driver\inc\ddl.h)(0x5A73CD4C)
+I (..\..\..\..\mcu\common\base_types.h)(0x5A73CD4C)
+I (D:\MDK  5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\stdint.h)(0x5F0BF6AC)
+I (D:\MDK  5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\..\..\mcu\common\hc32f003.h)(0x5A73CD4C)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\..\mcu\common\system_hc32f003.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\clk.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\interrupts_hc32f003.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\gpio.h)(0x5A73CD4C)
+I (..\source\ddl_device.h)(0x5A73CD90)
+F (..\source\pcf8562.c)(0x5EFC7F02)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I..\..\..\..\mcu\common -I..\source -I..\..\..\..\driver\inc-I D:\项目管理\AHT20及21演示板\标准版本\程序\新建文件夹\V1.2\uart\HC32F003_DDL\example\uart\uart_int\MDK\RTE-I "D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\MDK  5\ARM\PACK\HDSC\HC32F003\1.0.1"-I "D:\MDK  5\ARM\PACK\HDSC\HC32F003\1.0.1\Device\Include"-D__UVISION_VERSION="514" -D_RTE_-o .\output\release\pcf8562.o --omf_browse .\output\release\pcf8562.crf --depend .\output\release\pcf8562.d)
+I (..\source\pcf8562.h)(0x5EFC7A00)
+I (..\..\..\..\driver\inc\ddl.h)(0x5A73CD4C)
+I (..\..\..\..\mcu\common\base_types.h)(0x5A73CD4C)
+I (D:\MDK  5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\stdint.h)(0x5F0BF6AC)
+I (D:\MDK  5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\..\..\mcu\common\hc32f003.h)(0x5A73CD4C)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\..\mcu\common\system_hc32f003.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\clk.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\interrupts_hc32f003.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\gpio.h)(0x5A73CD4C)
+I (..\source\ddl_device.h)(0x5A73CD90)
+I (..\source\sensor3123.h)(0x5EFC79EE)
+F (..\..\..\..\driver\src\wdt.c)(0x5B0F64A0)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I..\..\..\..\mcu\common -I..\source -I..\..\..\..\driver\inc-I D:\项目管理\AHT20及21演示板\标准版本\程序\新建文件夹\V1.2\uart\HC32F003_DDL\example\uart\uart_int\MDK\RTE-I "D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\MDK  5\ARM\PACK\HDSC\HC32F003\1.0.1"-I "D:\MDK  5\ARM\PACK\HDSC\HC32F003\1.0.1\Device\Include"-D__UVISION_VERSION="514" -D_RTE_-o .\output\release\wdt.o --omf_browse .\output\release\wdt.crf --depend .\output\release\wdt.d)
+I (..\..\..\..\driver\inc\wdt.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\ddl.h)(0x5A73CD4C)
+I (..\..\..\..\mcu\common\base_types.h)(0x5A73CD4C)
+I (D:\MDK  5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (D:\MDK  5\ARM\ARMCC\include\stdint.h)(0x5F0BF6AC)
+I (D:\MDK  5\ARM\ARMCC\include\assert.h)(0x5475F300)
+I (..\..\..\..\mcu\common\hc32f003.h)(0x5A73CD4C)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC31DA)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\MDK  5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\..\mcu\common\system_hc32f003.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\clk.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\interrupts_hc32f003.h)(0x5A73CD4C)
+I (..\..\..\..\driver\inc\gpio.h)(0x5A73CD4C)
+I (..\source\ddl_device.h)(0x5A73CD90)
